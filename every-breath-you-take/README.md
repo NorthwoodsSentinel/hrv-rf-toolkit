@@ -1,5 +1,7 @@
 # Every Breath You Take – Heart Rate Variability Training with the Polar H10 Monitor
 
+> **Fork notice:** This is a modified fork of [kieranabrennan/every-breath-you-take](https://github.com/kieranabrennan/every-breath-you-take) (MIT, © Kieran Brennan). Additions in this fork: Fisher–Lehrer graduated RF protocol (`ProtocolManager.py`), HRVisualizer-compatible NeXus export (`DataExporter.py`), and per-breath discrete rate stepping.
+
 Through controlled breathing it is possible to regulate your body's stress reponse. This application allows you to measure and train this effect with a Polar H10 Heart Rate monitor.
 
 Heart rate variability, the small changes in heart rate from beat-to-beat, is a reliable measure of stress response. Heart rate variability reflects the balance between the two sides of the autonomic nervous system: the fight-or-flight response (from the sympathetic nervous system) and the rest-and-digest response (from the parasympathetic nervous system).
