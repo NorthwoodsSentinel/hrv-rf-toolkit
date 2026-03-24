@@ -761,8 +761,8 @@ class HRVWindow(QMainWindow):
         self._chart.getPlotItem().hideAxis("bottom")
 
         vb = self._chart.getViewBox()
-        vb.setYRange(-YSCALE, YSCALE, padding=0)
-        vb.setLimits(yMin=-YSCALE * 1.05, yMax=YSCALE * 1.05)
+        vb.setYRange(-YSCALE, YSCALE * 1.1, padding=0)
+        vb.setLimits(yMin=-YSCALE * 1.05, yMax=YSCALE * 1.15)
 
         layout.addWidget(self._chart, stretch=1)
 
@@ -782,7 +782,7 @@ class HRVWindow(QMainWindow):
             pen=pg.mkPen((180, 180, 180), width=10))                     # sine fit
         self._p_tick  = self._chart.plot(
             pen=pg.mkPen("k", width=2, style=Qt.DashLine))              # peak marker
-        self._p_label = pg.TextItem(anchor=(0.5, 1.0), color="k")
+        self._p_label = pg.TextItem(anchor=(0.5, 0.0), color="k")
         self._chart.addItem(self._p_label)
 
         # ── Time-axis tick items ─────────────────────────────────────────────

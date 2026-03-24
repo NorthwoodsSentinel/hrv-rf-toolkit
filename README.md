@@ -189,18 +189,7 @@ To build from source: open `Nexus/Nexus.sln` in Visual Studio. Requires .NET Fra
 
 ## Reading your RF
 
-In HRVisualizer, the HRV frequency plot shows power vs. frequency (x-axis in bpm). Look for:
-
-- A **sharp, prominent peak** in the 4–7 bpm region
-- The peak should be substantially taller than the noise floor
-- If using the Fisher–Lehrer protocol, the peak typically appears 1–2 minutes after the pacer passes through your true RF (physiological entrainment lag)
-
-For the Fisher–Lehrer 15-minute protocol (6.75 → 4.25 bpm):
-- The pacer sweeps through the full RF range
-- The frequency at the HRV peak is your RF
-- Confirm with a second session if the peak is not clear
-
-A typical range is 4.5–6.5 bpm; most people fall between 4.5–5.5 bpm.
+HRVisualizer automatically calculates and displays your RF — it appears in the window title bar and status bar at the bottom of the screen. A dashed vertical line marks the peak on the chart. Typical values are 4.5–6.5 bpm.
 
 ---
 
