@@ -150,27 +150,29 @@ On "Stop & Export" the app writes two files:
 
 HRVisualizer analyses the session and displays a frequency spectrum showing where HRV amplitude peaked. Your RF is the frequency of the highest peak in the **RSA band** (roughly 0.05–0.15 Hz / 3–9 bpm).
 
+**To open a session: drag and drop the `.txt` file onto the HRVisualizer window.** Both the Python port and the original Windows app work the same way.
+
 ### Python port (macOS / Linux / Windows)
 
-The file `hrvisualizer.py` is a full Python/PySide6 port of the original VB.NET HRVisualizer, producing the same results.
+`hrvisualizer.py` is a full Python/PySide6 port of the original VB.NET HRVisualizer, producing identical results.
+
+**macOS:** double-click `HRVisualizer.command`, then drag your `.txt` file onto the window.
+
+**All platforms (command line):**
 
 ```bash
 # Install (one-time, uses the EBYT venv)
-cd every-breath-you-take
-source venv/bin/activate
-pip install pyqtgraph
+cd every-breath-you-take && source venv/bin/activate && pip install pyqtgraph && cd ..
 
-# Open a session file
-cd ..
-python hrvisualizer.py exports/my_session.txt
-
-# Or open without a file (drag-and-drop)
+# Launch and drag-drop a file onto the window
 python hrvisualizer.py
+
+# Or open a file directly
+python hrvisualizer.py path/to/session.txt
 ```
 
-On macOS you can double-click `HRVisualizer.command`.
-
 **Controls:**
+- Drag and drop a `.txt` file onto the window to load it
 - Mouse wheel: zoom in/out on time axis
 - Click and drag scrollbar: pan
 - Checkboxes: toggle ECG / respiration traces
@@ -179,7 +181,9 @@ On macOS you can double-click `HRVisualizer.command`.
 
 ### Original Windows app
 
-The original VB.NET source is in `Nexus/`. Open `Nexus/Nexus.sln` in Visual Studio to build. Requires .NET Framework and Microsoft Chart Controls for .NET 3.5 (free download from Microsoft).
+The original compiled Windows app is in `Nexus/Nexus/bin/`. Double-click `Nexus.exe` to launch, then **drag and drop your `.txt` file onto the window**.
+
+To build from source: open `Nexus/Nexus.sln` in Visual Studio. Requires .NET Framework and Microsoft Chart Controls for .NET 3.5 (free download from Microsoft).
 
 ---
 
