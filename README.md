@@ -1,5 +1,8 @@
 # HRV Resonance Frequency Toolkit
 
+After learning about resonance breathing I was very interested in determining my own personal resonant frequency (RF). I spent several evenings researching, pulling together different tools and using Claude Code to develop an accessible way of determining RF. The method uses the Fisher-Lehrer RF protocol to determine RF using a heart rate monitor / EliteHRV app or using a Polar H10 and a more sophisticated desktop python app. The documentation below is AI generated (although has been edited for accuracy) and is just provided as a clear set of instructions for how to use these adapted tools I've hacked together! 
+
+---- 
 A collection of tools for determining your **Resonance Frequency (RF)** — the breathing rate (typically 4.5–7 bpm) at which heart rate variability is maximised. Training at your RF is the basis of HRV biofeedback therapy.
 
 This repo combines:
