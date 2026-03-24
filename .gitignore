@@ -1,0 +1,40 @@
+# Personal session data and test recordings
+rf_test_*.txt
+whoop_test_session_*.txt
+2026-*
+"Elite HRV*.txt"
+Elite HRV*.txt
+breath_schedule_per_breath_*.csv
+Notes.txt
+CodeFile_SafetyPatch.txt
+TONIGHT_TEST_ELITE_HRV.md
+CLAUDE.md
+
+# Research papers (cite via DOI instead)
+*.pdf
+
+# Windows binaries
+*.exe
+
+# Python artifacts
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+every-breath-you-take/venv/
+venv/
+
+# Personal session exports
+every-breath-you-take/exports/
+
+# macOS
+.DS_Store
+
+# Claude Code session data
+.claude/
+
+# Git
+*.suo
+*.user

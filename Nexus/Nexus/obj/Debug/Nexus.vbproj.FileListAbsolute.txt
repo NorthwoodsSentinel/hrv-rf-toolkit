@@ -1,0 +1,14 @@
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.DropTarget.resources
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.Resources.resources
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.vbproj.GenerateResource.Cache
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\Debug\Nexus.exe
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\Debug\Nexus.pdb
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\Debug\Nexus.xml
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.exe
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.xml
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.pdb
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\Debug\Nexus.exe.manifest
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\Debug\Nexus.application
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.exe.manifest
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\Debug\Nexus.application

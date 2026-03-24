@@ -1,0 +1,15 @@
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\x86\Release\Nexus.exe.manifest
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\x86\Release\Nexus.application
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\x86\Release\Nexus.exe
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\x86\Release\Nexus.pdb
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\bin\x86\Release\Nexus.xml
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.Resources.resources
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.vbproj.GenerateResource.Cache
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.exe.manifest
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.application
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.exe
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.xml
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.pdb
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.HRV_Display.resources
+C:\Users\SMG\Documents\Visual Studio 2008\Projects\Nexus\Nexus\obj\x86\Release\Nexus.Processing.resources
