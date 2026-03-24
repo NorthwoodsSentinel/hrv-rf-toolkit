@@ -58,10 +58,10 @@ Have it ready but **do not start yet**.
 ### Step 2 — Record with EliteHRV
 
 1. Open the **EliteHRV** app on your phone and start a new session in Free Mode (not their scored protocol).
-2. Connect your HRM (Polar H10 recommended — wrist PPG devices are noisier and can shift the apparent RF by 1+ bpm).
+2. Connect your HRM (Polar H10 recommended — wrist PPG devices are noisier and can shift the apparent RF).
 3. **Start EliteHRV and the breath.cafe pacer at the same moment.** This synchronisation is the key step — the converter uses the pacer's known protocol schedule to reconstruct the respiration waveform, aligned to your start time.
 4. Breathe for 15 minutes following the pacer.
-5. Stop both EliteHRV and the pacer at the same time. Note the clock time you started.
+5. Stop both EliteHRV and the pacer at the same time. 
 
 ### Step 3 — Export RR intervals from EliteHRV
 
@@ -76,17 +76,12 @@ Have it ready but **do not start yet**.
 ### Step 4 — Convert to HRVisualizer format
 
 ```bash
-# No dependencies needed — uses Python standard library only
-python3 elitehrv_to_hrvisualizer.py \
-    --rr "my_session_rr.txt" \
-    --start-time "2026-03-24T20:30:00" \
-    --output session_20260324.txt \
-    --name "Your Name"
+python3 quick_rf_test.py "my_session_rr.txt"
 ```
 
-The `--start-time` is the clock time when you started both apps. The converter generates the respiration waveform from the Fisher–Lehrer protocol schedule automatically.
+That's it. The script generates the Fisher–Lehrer breath schedule automatically and writes the output as `rf_test_YYYYMMDD_HHMMSS.txt` in the current directory.
 
-Output is a two-column tab-separated file (ECG, Respiration at 256 Hz) in NeXus format, ready for HRVisualizer.
+`elitehrv_to_hrvisualizer.py` is a more flexible version if you need to specify a custom breath schedule, output filename, or start time — but for a standard 15-minute Fisher–Lehrer session `quick_rf_test.py` is all you need.
 
 ### Step 5 — Open in HRVisualizer
 
@@ -201,7 +196,7 @@ For the Fisher–Lehrer 15-minute protocol (6.75 → 4.25 bpm):
 - The frequency at the HRV peak is your RF
 - Confirm with a second session if the peak is not clear
 
-Round to the nearest 0.25 or 0.5 bpm for training. A typical range is 4.5–6.5 bpm; most people fall between 4.5–5.5 bpm.
+A typical range is 4.5–6.5 bpm; most people fall between 4.5–5.5 bpm.
 
 ---
 
